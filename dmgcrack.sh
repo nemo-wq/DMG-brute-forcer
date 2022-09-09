@@ -1,5 +1,5 @@
 #!/bin/bash
-IFS=$'\n'
+IFS=$'\n'	#Set new line as internal field separator, used by bash for word splitting.
 index=0
 [ $# -eq 0 ] && { echo "Error: No Arguments Supplied."; echo "Usage: ./dmgcrack.sh wordlist encrypted_dmg"; exit 1; }
 
